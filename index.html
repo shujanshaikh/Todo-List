@@ -13,8 +13,8 @@
     <div class="todo-container">
         <h1>My To-do List</h1>
         <div class="input-container">
-            <input type="text" id="todo-input" placeholder="Add a new task...">
-            <button onclick="addTask()">Add</button>
+            <input type="text" id="todo-input" placeholder="Add a new task..." maxlength="100">
+            <button id="add-btn" onclick="addTask()">Add</button>
         </div>
         <ul id="todo-list">
             <!-- To-do items will go here -->
